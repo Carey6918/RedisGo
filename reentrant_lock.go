@@ -112,7 +112,7 @@ func unlock(key string, id goID) bool {
 		delete(key2Times, key)
 	}
 	if len(key2Times) == 0 {
-		delete(locks, key2Times)
+		delete(locks, id)
 	}
 	return true
 }
