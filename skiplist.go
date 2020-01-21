@@ -1,4 +1,4 @@
-package data_center
+package RedisGo
 
 import (
 	"fmt"
